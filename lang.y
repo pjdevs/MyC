@@ -17,7 +17,8 @@ void yyerror(char* s)
 
 %}
 
-%union { 
+%union
+{ 
 	struct ATTRIBUTE * att;
 }
 

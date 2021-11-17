@@ -11,9 +11,14 @@
 #ifndef ATTRIBUTE_H
 #define ATTRIBUTE_H
 
-typedef enum {INT, FLOAT} type;
+typedef enum
+{
+  INT,
+  FLOAT
+} type;
 
-struct ATTRIBUTE {
+struct ATTRIBUTE
+{
   char * name;
   int int_val;           // utilise' pour NUM et uniquement pour NUM
   type type_val;
@@ -24,7 +29,7 @@ struct ATTRIBUTE {
 
 typedef struct ATTRIBUTE * attribute;
 
-attribute new_attribute ();
+attribute new_attribute();
 /* returns the pointeur to a newly allocated (but uninitialized) attribute value structure */
 
 #endif

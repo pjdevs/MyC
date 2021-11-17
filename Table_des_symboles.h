@@ -9,7 +9,7 @@
  *
  *  Type attribute can be customized.
  *
- *  Symbol names must be valid sid from Table des chaines. 
+ *  Symbol names must be valid sid from Table des chaines.
  *
  */
 
@@ -23,6 +23,6 @@
 attribute get_symbol_value(sid symb_id);
 
 /* set the value of symbol symb_id to value, return NULL if it fails */
-attribute set_symbol_value(sid symb_id,attribute value);
+attribute set_symbol_value(sid symb_id, attribute value);
 
 #endif
