@@ -1,0 +1,4 @@
+*.o
+y.tab.*
+lex.yy.c
+*.output
